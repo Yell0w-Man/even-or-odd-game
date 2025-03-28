@@ -13,3 +13,24 @@
     align-content: center;
     display: flex;
 }
+
+   /* Custom styles for smaller screens */
+   @media (max-width: 576px) {
+    .dice-cards {
+        padding: 10px;
+        font-size: 0.8rem;
+    }
+
+    .number-box .fs-1 {
+        font-size: 2rem;
+    }
+
+    .btn {
+        font-size: 0.8rem;
+        padding: 5px;
+    }
+
+    .score-board .card-body p {
+        font-size: 0.8rem;
+    }
+}

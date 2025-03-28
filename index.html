@@ -7,62 +7,58 @@
     <link rel="stylesheet" href="index.css">
     <link href="../bootstrap5/css/bootstrap.min.css" rel="stylesheet">
     <title>Document</title>
+  
 </head>
 
 <body>
-    <div class="full-screen align-item-center d-flex justify-content-center">
-        <div class="container w-80 col-12 p-3 my-auto bg-body-secondary  
-        row row-cols-1 row-cols-md-3 text-center">
-            <div class="dice-cards col-4 card mb-4 rounded-3 shadow-sm ">
+    <div class="full-screen d-flex align-items-center justify-content-center">
+        <div class="container col-12 p-3 bg-body-secondary row row-cols-1 row-cols-sm-2 row-cols-md-3 text-center">
+            <!-- Dice Card -->
+            <div class="dice-cards col card mb-3 rounded-3 shadow-sm">
                 <div class="card-body">
-                    <div class="number-box align-content-center">
-                        <div class="d-glex fs-1">
-
-                            <p class="card-title pricing-card-title ">0</p>
-
+                    <div class="number-box">
+                        <div class="d-flex justify-content-center fs-1">
+                            <p class="card-title pricing-card-title">0</p>
                         </div>
                         <h4 class="points"><span>0+</span> Points</h4>
                     </div>
+                    <button type="button" class="w-100 btn btn-primary">Roll dice</button>
+                </div>
+            </div>
 
-                    <button type="button" class="w-100 btn btn-lg btn-primary">Roll dice</button>
+            <!-- Scoreboard -->
+            <div class="score-board col card mb-3 rounded-3 shadow-sm">
+                <div class="card-header py-2">
+                    <h4 class="my-0 fw-normal">Score-board</h4>
                 </div>
-            </div>
-            <div class="score-board col-4 ">
-                <div class="card mb-4 rounded-3 shadow-sm">
-                    <div class="card-header py-3">
-                        <h4 class="my-0 fw-normal">Score-board</h4>
-                    </div>
-                    <div class="card-body">
-                        <p><b>Human</b></p> 
-                        <small>0</small>
-                        <br>
-                        <br>
-                        <p>VS</p>
-                        <br>
-                        <br>
-                        <p><b>Computer</b></p>
-                        <small>0</small>
-                     <br>
-                     <button style="background: black;color: white;">Reset</button>
-                    </div>
-                </div>
-            </div>
-            <div class="dice-cards col-4 card mb-4 rounded-3 shadow-sm ">
                 <div class="card-body">
-                    <div class="number-box align-content-center">
-                        <div class="d-glex fs-1">
+                    <p><b>Human</b></p>
+                    <small>0</small>
+                    <br><br>
+                    <p>VS</p>
+                    <br><br>
+                    <p><b>Computer</b></p>
+                    <small>0</small>
+                    <br>
+                    <button style="background: black; color: white;" class="btn">Reset</button>
+                </div>
+            </div>
 
-                            <p class="card-title pricing-card-title ">0</p>
-
+            <!-- Dice Card -->
+            <div class="dice-cards col card mb-3 rounded-3 shadow-sm">
+                <div class="card-body">
+                    <div class="number-box">
+                        <div class="d-flex justify-content-center fs-1">
+                            <p class="card-title pricing-card-title">0</p>
                         </div>
                         <h4 class="points"><span>0+</span> Points</h4>
                     </div>
-
-                    <button type="button" class="w-100 btn btn-lg btn-primary">Roll dice</button>
+                    <button type="button" class="w-100 btn btn-primary">Roll dice</button>
                 </div>
             </div>
         </div>
     </div>
+
     <script src="index.js"></script>
     <script src="bootstrap5/js/bootstrap.min.js"></script>
 </body>
