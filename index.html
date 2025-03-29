@@ -4,15 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
     <link href="../bootstrap5/css/bootstrap.min.css" rel="stylesheet">
     <title>Document</title>
-  
 </head>
 
 <body>
-    <div class="full-screen d-flex align-items-center justify-content-center">
-        <div class="container col-12 p-3 bg-body-secondary row row-cols-1 row-cols-sm-2 row-cols-md-3 text-center">
+    <div class="full-screen d-flex align-items-center justify-content-center bg-light">
+        <div class="container p-3 bg-body-secondary row row-cols-1 row-cols-sm-2 row-cols-md-3 text-center g-4">
             <!-- Dice Card -->
             <div class="dice-cards col card mb-3 rounded-3 shadow-sm">
                 <div class="card-body">
@@ -22,29 +20,29 @@
                         </div>
                         <h4 class="points"><span>0+</span> Points</h4>
                     </div>
-                    <button type="button" class="w-100 btn btn-primary">Roll dice</button>
+                    <button type="button" class="btn btn-primary w-100">Roll dice</button>
                 </div>
             </div>
 
             <!-- Scoreboard -->
             <div class="score-board col card mb-3 rounded-3 shadow-sm">
-                <div class="card-header py-2">
-                    <h4 class="my-0 fw-normal">Score-board</h4>
+                <div class="card-header bg-primary text-white py-2">
+                    <h4 class="my-0 fw-normal">Scoreboard</h4>
                 </div>
                 <div class="card-body">
                     <p><b>Human</b></p>
                     <small>0</small>
-                    <br><br>
+                    <hr>
                     <p>VS</p>
-                    <br><br>
+                    <hr>
                     <p><b>Computer</b></p>
                     <small>0</small>
                     <br>
-                    <button style="background: black; color: white;" class="btn">Reset</button>
+                    <button class="btn btn-dark w-100 mt-3">Reset</button>
                 </div>
             </div>
 
-            <!-- Dice Card -->
+            <!-- Another Dice Card -->
             <div class="dice-cards col card mb-3 rounded-3 shadow-sm">
                 <div class="card-body">
                     <div class="number-box">
@@ -53,7 +51,7 @@
                         </div>
                         <h4 class="points"><span>0+</span> Points</h4>
                     </div>
-                    <button type="button" class="w-100 btn btn-primary">Roll dice</button>
+                    <button type="button" class="btn btn-primary w-100">Roll dice</button>
                 </div>
             </div>
         </div>
